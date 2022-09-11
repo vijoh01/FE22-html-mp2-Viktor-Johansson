@@ -46,9 +46,11 @@ nav {
 nav a {
     color: #ee1c4d;
     font-family: 'MASQUE', 'Times New Roman', Times, serif;
-    font-size: 15px;
     padding: 30%;
     border-right: white solid 1px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s linear;
 }
 
 nav a:hover {
@@ -207,14 +209,6 @@ nav ul {
 .footer h2 {
     color: white;
     font-size: 27px;
-}
-
-
-
-nav a{
-    text-decoration: none;
-    font-size: 1.7rem;
-    transition: color 0.3s linear;
 }
 
 
