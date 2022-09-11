@@ -46,6 +46,7 @@ nav {
 nav a {
     color: #ee1c4d;
     font-family: 'MASQUE', 'Times New Roman', Times, serif;
+    font-size: 15px;
     padding: 30%;
     border-right: white solid 1px;
 }
