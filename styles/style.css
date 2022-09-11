@@ -196,6 +196,23 @@ nav ul {
     grid-row: 1 / 6;
 }
 
+.meny-container section:nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-basis: 10%;
+}
+
+.meny-container section p {
+    color: white;
+    font-size: 2vw;
+    flex-basis: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 /*-------------------------------*/
 
 .footer {
@@ -212,7 +229,7 @@ nav ul {
 }
 
 .footer p {
-    font-size: 25px;
+    font-size: 1.3vw;
     color: white;
 }
 
@@ -245,7 +262,7 @@ nav ul {
 
 .footer h1 {
     color: white;
-    font-size: 25px;
+    font-size: 1.3vw;
     text-decoration: underline;
 }
 
@@ -255,7 +272,8 @@ nav ul {
 
 .footer h2 {
     color: white;
-    font-size: 27px;
+    font-size: 1.65vw;
+    text-decoration: underline;
 }
 
 
