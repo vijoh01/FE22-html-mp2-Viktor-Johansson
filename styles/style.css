@@ -28,8 +28,6 @@ header {
     width: 100%;
     background: url('../images/background.webp') no-repeat;
     background-size: cover;
-    
-    
 }
 
 nav {
@@ -90,7 +88,7 @@ nav ul {
     display: grid;
     grid-template-columns: 31.5% 35% 31.5%;
     grid-template-rows: 34vw 25.5vw 30vw;
-    gap: 1rem;
+    gap: 1%;
 }
 
 .index-container section:nth-child(1) {
@@ -165,13 +163,37 @@ nav ul {
 
 .meny-container {
     display: grid;
-    grid-template-columns: 31.5% 35% 31.5%;
-    grid-template-rows: 34vw 25.5vw 30vw;
-    gap: 1rem;
+    grid-template-columns: 18.5% 30% 30% 18.5%;
+    grid-template-rows: 14vw 25.5vw 30vw 30vw 30vw 30vw 30vw;
+    gap: 1%;
 }
 
 .meny-container section {
+    
+    background-color: gray;
+}
 
+.meny-container section:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+}
+
+.meny-container section:nth-child(2) {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    font-size: 5vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'MASQUE', 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+
+.meny-container section:nth-child(4) {
+    grid-column: 4 / 5;
+    grid-row: 1 / 6;
 }
 
 /*-------------------------------*/
@@ -238,7 +260,7 @@ nav ul {
 
 
 nav img {
-    border: white solid 1px;
+
     padding: 15px 30px 15px 30px;
     width: 8vw;
 }
