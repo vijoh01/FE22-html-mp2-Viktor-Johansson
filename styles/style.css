@@ -49,7 +49,7 @@ nav a {
     padding: 30%;
     border-right: white solid 1px;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.5vw;
     transition: color 0.3s linear;
 }
 
@@ -77,6 +77,14 @@ nav ul {
     list-style: none;
 
 }
+
+/*          ------------------
+----            CONTAINERS           ----
+            ------------------         */
+
+/*  
+        Startsida (index.html) 
+                                    */
 
 .index-container {
     display: grid;
@@ -150,6 +158,23 @@ nav ul {
     grid-row: 4 / 5;
     width: 100%;
 }
+
+/*      
+         Meny (meny.html) 
+                                */
+
+.meny-container {
+    display: grid;
+    grid-template-columns: 31.5% 35% 31.5%;
+    grid-template-rows: 34vw 25.5vw 30vw;
+    gap: 1rem;
+}
+
+.meny-container section {
+
+}
+
+/*-------------------------------*/
 
 .footer {
     margin-bottom: 5%;
