@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: 'gunplay';
+    src: url('../fonts/gunplay.ttf');
+}
+
+body {
+    background-color: black;
+}
+
+.nav-container {
+    position: sticky;
+    top: 0;
+}
+
+nav:hover {
+    opacity: 100%;
+}
+
+header {
+    height: 20vw;
+    width: 100%;
+    background: url('../images/background.webp') no-repeat;
+    background-size: cover;
+    
+    
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    
+    align-items: center;
+    opacity: 0.8;
+    transition: opacity 0.5s linear;
+}
+
+nav a {
+    color: #ee1c4d;
+    font-family: 'gunplay', 'Times New Roman', Times, serif;
+    padding: 30%;
+    border-right: white solid 1px;
+}
+
+nav a:hover {
+    border-bottom: white solid 2.5px;
+    color: white;
+    
+}
+
+li a {
+    padding: 0.5vw 2vw 0.5vw 2vw;
+}
+
+li:last-child a:last-child {
+    border-right: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 31.5% 35% 31.5%;
+    grid-template-rows: 34vw 25.5vw 30vw;
+    gap: 1rem;
+}
+
+.grid-container section:nth-child(1) {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: black;
+    background: url('../images/background.jpg') no-repeat;
+    height: 34vw; 
+    width: 100%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+.grid-container section:nth-of-type(1n+2) {
+
+    vertical-align: middle;
+    transition: opacity 1s;
+
+
+}
+
+.grid-container section:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background: url('../images/lax-bowl.jpg') no-repeat;
+    background-size: cover;
+    height: 25.5vw;
+    width: 100%;
+
+}
+
+.grid-container section:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background: url('../images/chicken-teriyaki.jpg') no-repeat;
+    background-size: cover;
+    height: 25.5vw;
+    width: 100%;
+
+}
+
+.grid-container section:nth-child(4) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background: url('../images/salmon-roll.jpg') no-repeat;
+    background-size: cover;
+    height: 25.5vw;
+    width: 100%;
+
+}
+
+.grid-container section:nth-child(5) {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background: url('../images/food.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: 90%;
+    height: 30vw;
+    width: 100%;
+}
+
+
+.grid-container section:nth-child(6) {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    width: 100%;
+}
+
+.footer {
+    margin-bottom: 5%;
+}
+
+.footer section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex: 1;
+    width: 100%;
+    
+}
+
+.footer p {
+    font-size: 25px;
+    color: white;
+}
+
+.footer section:nth-child(1) {
+    height: 15vh;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex: 1;
+}
+
+.footer section:nth-child(2) section:nth-child(1) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    flex: 2;
+    width: 100%;
+    align-items: center;
+
+}
+
+.footer section:nth-child(2) section:nth-child(2) {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    flex: 2;
+    width: 100%;
+    align-items: center;
+}
+
+.footer h1 {
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.footer p:nth-child(-n+2) {
+    margin-top: 3%;;
+}
+
+.footer h2 {
+    color: white;
+    font-size: 27px;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    transition: color 0.3s linear;
+}
+
+
+nav img {
+    border: white solid 1px;
+    padding: 15px 30px 15px 30px;
+    width: 8vw;
+}
