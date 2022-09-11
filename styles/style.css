@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'gunplay';
-    src: url('../fonts/gunplay.ttf');
+    font-family: 'MASQUE';
+    src: url('../fonts/MASQUE.ttf');
 }
 
 body {
@@ -45,7 +45,7 @@ nav {
 
 nav a {
     color: #ee1c4d;
-    font-family: 'gunplay', 'Times New Roman', Times, serif;
+    font-family: 'MASQUE', 'Times New Roman', Times, serif;
     padding: 30%;
     border-right: white solid 1px;
 }
