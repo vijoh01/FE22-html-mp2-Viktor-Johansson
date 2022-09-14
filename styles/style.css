@@ -116,13 +116,13 @@ nav ul {
     grid-row: 1 / 2;
     background-color: black;
     background: url('../images/background.jpg') no-repeat;
-    height: 34vw;
+    
 
     background-position-y: 50%;
     background-size: cover;
 
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: flex-end;
 }
 
